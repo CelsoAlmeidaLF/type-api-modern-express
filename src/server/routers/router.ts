@@ -1,9 +1,7 @@
 import express from 'express';
-import { ControllerHome } from '../controllers/home';
+import ControllerHome from '../controllers/home';
 
 let router = express.Router();
-let home = new ControllerHome();
+router.get('/', new ControllerHome().index);
 
-router.get('/', home.index);
-
-export = router;
+export default router;

@@ -1,6 +1,6 @@
-import { ServerApi } from '../server/server';
+import ServerApi from '../server/server';
 
-export class Application {
+export default class Application {
     constructor(){
         console.log('[Application] build ...')
         

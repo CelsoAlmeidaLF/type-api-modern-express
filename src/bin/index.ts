@@ -1,4 +1,4 @@
-import { Application } from './application';
+import Application from './application';
 
 class Program extends Application {
     
@@ -7,7 +7,6 @@ class Program extends Application {
     }
 
     main(){
-        this.build();
     }
 }
 

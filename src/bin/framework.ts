@@ -1,6 +1,6 @@
-import { Application } from '../app/application';
+import System from './system';
 
-export class Framework extends Application {
+export default class Framework extends System {
     constructor(){
         super();
     }

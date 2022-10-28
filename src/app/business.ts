@@ -1,6 +1,6 @@
-import { Framework } from "../modules/framework";
+import Framework from "../bin/framework";
 
-export class Business extends Framework {
+export default class Business extends Framework {
         constructor(){
             super()
         }

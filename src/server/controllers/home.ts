@@ -1,8 +1,8 @@
 import {Request, Response} from 'express';
-import { Api } from '../Api/Response';
-import { Business } from '../../app/business';
+import Api  from '../Api/Response';
+import Business from '../../app/business';
 
-export class ControllerHome {
+export default class ControllerHome {
 
     index(req: Request, res: Response)
     { 
