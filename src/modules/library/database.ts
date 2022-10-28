@@ -1,10 +1,12 @@
 import sqlite3 from "sqlite3";
+import System from "../../bin/system";
 
-export default class Database {
+export default class Database extends System {
 
     public sucess: string
 
     constructor(){
+        super()
         this.sucess = ''
     }
 

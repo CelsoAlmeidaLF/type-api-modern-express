@@ -1,5 +1,5 @@
 import { result } from "lodash";
-import Database from "./database";
+import Database from "./library/database";
 import ModelUser from "../models/modelUser";
 
 export default class Autentication {
