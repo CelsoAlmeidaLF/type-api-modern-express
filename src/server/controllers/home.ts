@@ -1,12 +1,12 @@
 import {Request, Response} from 'express';
-import Api  from '../Api/Response';
+import api  from '../Api/Response';
 import Business from '../../app/business';
 
-export default class ControllerHome {
+export default class controllerHome {
 
-    index(req: Request, res: Response)
+    static index(req: Request, res: Response)
     { 
         let bll = new Business();          
-        Api.Ok(res, 'testing, api ...')
+        api.Ok(res, 'testing, api ...')
     }
 }

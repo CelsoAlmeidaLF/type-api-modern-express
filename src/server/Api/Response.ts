@@ -1,7 +1,7 @@
 import { format } from 'date-fns';
 import {v4} from 'uuid'
 
-export default class Api {
+export default class api {
 
     static Ok(res: any, result: string){
 
