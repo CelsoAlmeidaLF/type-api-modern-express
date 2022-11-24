@@ -1,5 +1,5 @@
 import {Request, Response} from 'express';
-import api  from '../Api/Response';
+import api  from '../api/Response';
 import Business from '../../app/business';
 
 export default class controllerHome {
